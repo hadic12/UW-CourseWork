@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=GuessingGame
+comment0.text=\ This\ programs\ is\ a\ guessing\ game\ which\ asks\ the\ user\ to\ guess\ a\ randomly\r\n\ generated\ number,\ the\ user\ will\ keep\ guessing\ untill\ the\ right\ answer.\r\n\ After\ they\ win\ the\ game,\ they\ will\ be\ prompted\ whethery\ they\ want\ to\ \r\n\ play\ again\ or\ end\ the\ game.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ gg()
+numComments=3

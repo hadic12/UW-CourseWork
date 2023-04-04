@@ -1,0 +1,11 @@
+Ans 1: Because we were essentially doing the same code but for different outcomes.
+	 It can be problematic because if a bug arises in the first one, it will most
+	 be passed on to the second one as well.
+
+Ans 2: Not any I can think of currently.
+
+Ans 3: I was familiar with constructors and getters/setters but I had to look up some
+	 methods such as Math.PI or the indexOf method.
+
+Ans 4: We would have to redefine all the parameters and rewrite all the code from scratch
+	 for it, it will also make the code longer, more complex and more prone to bugs.

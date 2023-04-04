@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Greencrud
+comment0.text=\r\n\ This\ program\ claculates\ a\ greencrud\ population\ using\ Fabionacci\ numbers\ calculation.\r\n\ It\ reads\ from\ a\ file\ named\ greencrud.txt\ and\ displays\ the\ results\ in\ a\ file\ called\r\n\ crudout.txt\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=a\ day
+comment2.target=int\ calc(int,\ int)
+numComments=3

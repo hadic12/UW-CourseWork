@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Lab3a
+comment0.text=\r\n\ Lab\ 3a\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ sqrtSumBucketer()
+comment3.params=x
+comment3.target=void\ oddEvenChecker(int)
+comment4.params=a\ b
+comment4.target=void\ multipleOfChecker(int,\ int)
+numComments=5

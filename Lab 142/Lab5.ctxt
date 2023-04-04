@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Lab5
+comment0.text=\r\n\ Description\ of\ this\ class\ here\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ getRichQuick()
+comment3.params=x
+comment3.target=double\ eTaylor(double)
+comment4.params=x\ n
+comment4.target=double\ eTaylorHelper(double,\ int)
+comment5.params=
+comment5.target=void\ palindromeCheck()
+comment5.text=\r\n\ This\ program\ reads\ words,\ identifies,\ counts\ and\ writes\ all\ the\ palindromes\ \r\n\ \ \ \ and\ the\ total\r\n\ palindrome\ count.\r\n\ \r\n\ //\ hint\ 1\:\ Using\ keybord.next()\ will\ only\ return\ what\ comes\ before\ a\ space.\r\n\ \ \ \ //\ hint\ 2\:\ Using\ keybord.nextLine()\ automatically\ reads\ the\ entire\ current\ \r\n\ \ \ \ line.\r\n
+comment6.params=
+comment6.target=void\ printMenu()
+numComments=7

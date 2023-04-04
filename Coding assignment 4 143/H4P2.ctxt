@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=H4P2
+comment0.text=\r\n\ This\ program\ plays\ a\ simple\ game\ of\ pig\ with\ two\ players\ being\ the\ user(human)\ and\ the\ computer.\r\n\ The\ user\ is\ given\ first\ turn\ by\ default\ and\ after\ every\ dice\ roll\ is\ prompted\ whether\ they\r\n\ want\ to\ roll\ again\ or\ hold\ their\ current\ score\ and\ give\ the\ turn\ to\ computer.\ Computer\ can\ score\r\n\ up\ to\ 20\ points\ on\ each\ turn\ or\ roll\ a\ 1\ which\ ends\ its\ turn\ but\ the\ user\ may\ keep\ rolling\ until\r\n\ they\ roll\ a\ 1\ or\ choose\ to\ hold\ their\ current\ score.\ On\ each\ roll,\ both\ the\ user's\ and\ computer's\r\n\ points\ are\ accummulated\ and\ whoever\ reaches\ 100\ first\ wins\ the\ game.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

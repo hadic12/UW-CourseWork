@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Temperature
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Temperature\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Temperature()
+comment2.params=temp\ c
+comment2.target=Temperature(double,\ char)
+comment3.params=
+comment3.target=double\ getCelcius()
+comment4.params=
+comment4.target=double\ getFahrenheit()
+comment5.params=temp
+comment5.target=void\ setTemp(double)
+comment6.params=scale
+comment6.target=void\ setScale(char)
+comment7.params=temp\ c
+comment7.target=void\ setTempScale(double,\ char)
+comment8.params=obj
+comment8.target=int\ compareTo(Temperature)
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10

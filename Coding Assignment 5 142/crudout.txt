@@ -1,0 +1,7 @@
+Initial population: 12 pounds. Time Frame: 10 days. Final population: 24 pounds
+Initial population: 4 pounds. Time Frame: 30 days. Final population: 52 pounds
+Initial population: 28 pounds. Time Frame: 18 days. Final population: 84 pounds
+Initial population: 7 pounds. Time Frame: 13 days. Final population: 14 pounds
+Initial population: 17 pounds. Time Frame: 10 days. Final population: 34 pounds
+Initial population: 9 pounds. Time Frame: 35 days. Final population: 189 pounds
+Initial population: 10 pounds. Time Frame: 20 days. Final population: 50 pounds

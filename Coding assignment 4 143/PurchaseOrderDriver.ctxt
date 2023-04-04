@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=PurchaseOrderDriver
+comment0.text=\r\nHW3.java\:\ Simple\ driver\ to\ test\ Order,\ Date,\ and\ Order\ classes\r\n@author\ Rob\ Nash,\ borrowed\ from\ cfolsen,\ revised\ by\ Lesley\ Kalmin\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ \ \ \ main\ driver\ function\r\n\ \ \ \ pre\:\ \ none\r\n\ \ \ \ post\:\ exercises\ the\ methods\ in\ Order,\ Money,\ and\ Date\ (not\ done)\r\n
+numComments=2

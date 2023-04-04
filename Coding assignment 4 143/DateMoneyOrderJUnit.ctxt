@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=DateMoneyOrderJUnit
+comment1.params=
+comment1.target=void\ ConstructMoneyTest()
+comment2.params=
+comment2.target=void\ SetMoneyTest()
+comment3.params=
+comment3.target=void\ ConstructMoneyCopyTest()
+comment4.params=
+comment4.target=void\ PrintMoneyTest()
+numComments=5

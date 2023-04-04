@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=FractionsV1
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=int\ FileSize()
+comment3.params=a\ b
+comment3.target=long\ gcd(long,\ long)
+comment3.text=\ \ \ \ if(b\=\=0)\ {\r\n\ \ \ \ \ \ \ \ \ \ \ a\ \=\ gcd(b\ ,\ a\ %\ b);\r\n\ \ \ \ }\ return\ a\r\n//**\ @return\ the\ greatest\ common\ denominator
+comment4.params=a\ b
+comment4.target=java.lang.String\ asFraction(long,\ long)
+numComments=5

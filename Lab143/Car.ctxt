@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Car
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment10.params=mk\ md
+comment10.target=void\ setType(java.lang.String,\ java.lang.String)
+comment11.params=
+comment11.target=java.lang.String\ getType()
+comment12.params=
+comment12.target=java.lang.String\ toString()
+comment2.params=mk
+comment2.target=Car(java.lang.String)
+comment3.params=mk\ md\ y
+comment3.target=Car(java.lang.String,\ java.lang.String,\ int)
+comment4.params=mk\ md
+comment4.target=Car(java.lang.String,\ java.lang.String)
+comment5.params=mk
+comment5.target=void\ setMake(java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ getMake()
+comment7.params=md
+comment7.target=void\ setModel(java.lang.String)
+comment8.params=
+comment8.target=java.lang.String\ getModel()
+comment9.params=y
+comment9.target=void\ setOdometer(int)
+numComments=13

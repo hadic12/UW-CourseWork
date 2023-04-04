@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Lab7
+comment0.text=\r\n\ This\ program\ will\ get\ a\ line\ of\ input\ from\ the\ user\r\n\ and\ will\ print\ a\ copy\ of\ the\ line\ in\ which\ the\ first\r\n\ character\ of\ each\ word\ has\ been\ changed\ to\ upper\ case.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=str
+comment2.target=void\ capitalizeFirstLetters(java.lang.String)
+comment3.params=name
+comment3.target=void\ nameInitials(java.lang.String)
+comment4.params=a
+comment4.target=java.lang.String\ lexLargest(java.lang.String)
+comment5.params=b
+comment5.target=java.lang.String\ largestBy(java.lang.String)
+comment6.params=
+comment6.target=void\ charsIndex()
+numComments=7

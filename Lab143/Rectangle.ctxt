@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Rectangle
+comment0.text=Another\ shape\ class.\ Now\ that\ we've\ seen\ Circles\ and\ Squares,\ what\ if\ our\ \r\nsimulation\ required\ even\ more\ shapes\ such\ as\ this\ Rectangle?\ As\ our\ software\ \r\ngrows\ in\ (1)\ size,\ (2)\ complexity,\ and\ (3)\ the\ number\ of\ classes\ involved,\ \r\nwe'll\ need\ to\ plan\ flexibly\ and\ generically\ or\ our\ software\ will\ require\ major\ \r\noverhauls\ with\ just\ the\ addition\ of\ new\ shapes\ (like\ Rectangle\ below).\ \r\nOnce\ you're\ comfortable\ with\ the\ Rectangle\ class,\ see\ if\ you\ could\ add\ this\ \r\nshape\ to\ our\ first\ Lab\ and\ look\ for\ new\ rectangle\ output\ once\ you're\ done.\r\n
+comment1.params=
+comment1.target=Rectangle()
+comment10.params=
+comment10.target=java.lang.String\ draw()
+comment2.params=newX\ newY
+comment2.target=Rectangle(int,\ int)
+comment3.params=newX\ newY\ newX2\ newY2
+comment3.target=Rectangle(int,\ int,\ int,\ int)
+comment4.params=newX\ newY
+comment4.target=void\ setXY(int,\ int)
+comment5.params=
+comment5.target=java.lang.String\ getXY()
+comment6.params=
+comment6.target=void\ printMemoryAddress()
+comment7.params=one\ two
+comment7.target=boolean\ isEquals(Rectangle,\ Rectangle)
+comment8.params=other
+comment8.target=boolean\ equals(java.lang.Object)
+comment9.params=
+comment9.target=double\ getArea()
+numComments=11

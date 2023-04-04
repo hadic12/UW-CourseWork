@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=ChohanHadi_HW_Branching
+comment0.text=\r\n\ This\ program\ takes\ three\ integers\ or\ doubles\ entered\ by\ user\ (in\ seconds)\ and\ \r\n\ sorts\ them\ in\ ascending\ order\ for\ first\ place,\ second\ place\ and\ third\ place\ \r\n\ racers\ tells\ if\ any\ of\ the\ racers\ were\ tied\ for\ a\ position.\ It\ also\ calculates\r\n\ the\ range\ of\ race\ times\ and\ their\ average\ and\ finally\ displays\ the\ result\ with\ \r\n\ the\ position\ of\ the\ racers,\ tells\ whether\ they\ are\ tied\ or\ not,\ displays\ the\ \r\n\ range\ of\ racers\ and\ displays\ the\ average\ time\ of\ all\ racers\ as\ well.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=num1\ num2\ num3
+comment2.target=void\ sortPlace(double,\ double,\ double)
+numComments=3

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Pizza
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Pizz\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Pizza()
+comment2.params=size\ meat\ veggie\ friendly
+comment2.target=Pizza(java.lang.String,\ int,\ int,\ boolean)
+comment3.params=
+comment3.target=java.lang.String\ getDescription()
+comment4.params=
+comment4.target=double\ calcCost()
+comment5.params=
+comment5.target=java.lang.String\ getSize()
+comment6.params=
+comment6.target=int\ getMeat()
+comment7.params=
+comment7.target=int\ getVeg()
+comment8.params=
+comment8.target=java.lang.String\ isVegan()
+numComments=9

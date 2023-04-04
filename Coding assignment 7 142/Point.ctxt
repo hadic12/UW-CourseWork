@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Point
+comment0.text=\ This\ is\ the\ base\ class\ which\ compares\ all\ the\ points\ and\ returns\ values\r\n\ based\ on\ the\ result\ such\ as\ they\ are\ equal\ or\ their\ compare\ their\ slopes\ etc.\r\n
+comment1.params=x_coord\ y_coord
+comment1.target=Point(double,\ double)
+comment2.params=anotherPoint
+comment2.target=boolean\ equals(Point)
+comment3.params=anotherPoint
+comment3.target=boolean\ lessThan(Point)
+comment4.params=anotherPoint
+comment4.target=double\ slopeTo(Point)
+comment5.params=anotherPoint
+comment5.target=int\ compareSlopes(Point)
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

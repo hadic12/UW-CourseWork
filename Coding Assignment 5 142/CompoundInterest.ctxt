@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=CompoundInterest
+comment0.text=\ This\ program\ takes\ in\ an\ initial\ amount\ \r\n\ and\ calculates\ the\ compund\ interest\ \r\n\ over\ a\ given\ time\ frame.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=a\ r\ n
+comment2.target=double\ value(double,\ double,\ int)
+numComments=3

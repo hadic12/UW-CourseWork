@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PointArray
+comment0.text=\ This\ is\ the\ the\ class\ that\ does\ all\ the\ input\ for\ different\ points\r\n\ using\ arrays,\ checks\ collinear,\ sorts\ them\ and\ compares\ the\ points\ within\ the\ arrays.\r\n
+comment1.params=arr
+comment1.target=PointArray(double[])
+comment2.params=fis
+comment2.target=PointArray(java.io.FileInputStream)
+comment3.params=
+comment3.target=boolean\ contains3collinear()
+comment4.params=
+comment4.target=void\ sort()
+comment5.params=anotherPointArray
+comment5.target=boolean\ equals(PointArray)
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

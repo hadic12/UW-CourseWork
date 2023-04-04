@@ -1,0 +1,13 @@
+ Answers to last part of the lab. 
+		 * a) Java primitive types are passed by value where as objects are passed by reference
+		 * 
+		 * b) When a primitive type is passed to a method, it is passed by value so any
+		 * changes made to the variable in the called method are not seen in the calling
+		 * method.
+		 * 
+		 * c) When an object is passed, the object is passed by reference. Therefore
+		 * changes made to the object in the called method are available in the calling
+		 * method after the called method returns.
+		 * 
+		 * d) Scope of objects passed to a method is always global. Changes are
+		 * preserved in the same object

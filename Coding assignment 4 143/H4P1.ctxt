@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=H4P1
+comment0.text=\r\n\ This\ program\ calculates\ the\ possible\ values\ in\ cryptic-arithmetic\ for\ \r\n\ "TOO\ +\ TOO\ +\ TOO\ +\ TOO\ \=\ GOOD"\ equation\ with\ each\ alphabatecial\ value\ \r\n\ is\ less\ than\ 10.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

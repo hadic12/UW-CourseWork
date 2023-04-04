@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=PointArrayTester
+comment0.text=\ This\ is\ the\ class\ that\ tests\ and\ drives\ the\ other\ two\ classes,\r\n\ hence,\ runs\ the\ code\ with\ the\ given\ file\ and\ input.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

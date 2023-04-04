@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Lab8b
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Lab8b\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=N\ start\ end
+comment2.target=int[][]\ randomMatrix(int,\ int,\ int)
+comment3.params=a\ i
+comment3.target=int\ rowSum(int[][],\ int)
+comment4.params=a\ j
+comment4.target=int\ colSum(int[][],\ int)
+comment5.params=a
+comment5.target=boolean\ isSquare(int[][])
+comment6.params=a
+comment6.target=boolean\ isLatin(int[][])
+numComments=7

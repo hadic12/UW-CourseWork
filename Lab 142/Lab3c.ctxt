@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Lab3c
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=a
+comment2.target=java.lang.String\ inToWord(int)
+comment3.params=user\ compChoice
+comment3.target=java.lang.String\ findWinner(int,\ int)
+numComments=4

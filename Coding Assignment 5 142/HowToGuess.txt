@@ -1,0 +1,12 @@
+Name: Hadi Chohan
+Class: CSS 142
+Teacher: Professor Chini
+Date: 5/8/2022
+
+                                                    How to guess
+
+I guess by first starting at 50 as it is the middle value, whether its too high or low does not matter as the 
+strategy is the same to approach from both sides. Then I decrease the gap by 20, still too high or low so but if 
+it changes from being high to low or vice versa, I change the gap to 10, then 5 and so on till I guess right. Usually 
+takes around 5 guesses to reach the conclusion or 3 is often but not frequent. My best was 1st try when I just was tired 
+and randomly guessed 96.

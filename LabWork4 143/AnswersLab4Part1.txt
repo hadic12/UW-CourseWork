@@ -1,0 +1,27 @@
+Q. 1) and 2)
+
+(a) Bottom panel (below the code editor where output shows).
+(i)args (String[]) 
+   Account)
+   balance (double)
+   owner name (String)
+   value (char[])
+   hash (int)
+
+(b) To the left of the variables
+(i) The active threads and the call stack.
+
+Q. 3)
+
+Q. Step Over:
+A: Go to the next line in the block.
+
+Q. Step Into:
+A: Go to the next line or into a user defined method.
+
+Q. Step Out:
+A: Completes and moves to to the point that called the method
+
+Q. Continue:
+A: Runs the program from where programmer has set debug point up to the end of the program or to the point where programmer has set break point
+

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=H2P2
+comment0.text=\r\n\ This\ asks\ the\ name\ of\ an\ employee\ and\ calculates/diplays\ their\ total\ pay\ if\ they\ have\ worked\ within\ the\ \r\n\ state\ law\ of\ getting\ minimum\ pay\ of\ $5.25\ and\ worked\ <\=\ 60\ hours.\ Otherwise,\ it\ would\ diplay\ a\ different\ message.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\ The\ main\ method\ asks\ for\ user\ input\ regarding\ employee\ name,\ base\ pay\ and\ hours\ \r\n\ worked.\ If\ the\ hours\ and/or\ base\ pay\ do\ not\ comply\ with\ state\ law,\ the\ corresponding\ \r\n\ message\ will\ be\ diplayed,\ otherwise,\ their\ total\ pay\ will\ be\ displayed\ along\ with\ their\ name.\r\n
+comment2.params=bp\ hw
+comment2.target=double\ salaryTotal(double,\ double)
+numComments=3

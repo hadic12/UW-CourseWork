@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Lab2a
+comment0.text=\r\n\ Lab2a.java\r\n\r\n\ Authors\:\ Samantha\ Smith,\ you\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=f
+comment2.target=double\ kelvins(double)
+comment2.text=\r\n\ kelvins\r\n\r\n\ This\ method\ converts\ a\ value\ in\ F\ to\ the\ corresponding\ value\ in\ K.\r\n\r\n\ @param\ \ \ f\ \ \ double\ \ The\ temperature\ in\ Farenheit\r\n\ @return\ \ The\ temeprature\ in\ Kelvins\r\n
+comment3.params=f\ k
+comment3.target=void\ temperaturePrinter(double,\ double)
+comment3.text=\r\n\ temperaturePrinter\r\n\r\n\ This\ method\ prints\ the\ message\ "<f>\ F\ corresponds\ to\ <k>\ K"\r\n\r\n\ @param\ \ \ f\ \ \ double\ \ The\ temperature\ in\ Farenheit\r\n\ @param\ \ \ k\ \ \ double\ \ The\ temperature\ in\ Kelvins\r\n
+comment4.params=seconds
+comment4.target=void\ secondTime(int)
+comment4.text=\r\n\ secondTime\r\n\r\n\ This\ method\ converts\ from\ seconds\ to\ hour\:minutes\:seconds,\ and\ prints\ the\r\n\ result\ to\ the\ console.\r\n\r\n\ @param\ \ \ inputSeconds\ \ \ \ int\ The\ total\ seconds\ to\ convert\r\n
+comment5.params=hours\ minutes\ seconds
+comment5.target=void\ inSeconds(int,\ int,\ int)
+numComments=6

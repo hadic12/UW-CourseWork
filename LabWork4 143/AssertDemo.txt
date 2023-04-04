@@ -1,0 +1,281 @@
+package com.java.AssertionTest;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import java.awt.Point;
+
+import java.util.ArrayList;
+
+import java.util.Scanner;
+
+public class AssertDemo {
+
+/**
+
+* work on this in a piecewise fashion by uncommenting and focusing on one
+
+* section at a time. in isolation rather than running everything at once.
+
+*
+
+* @param args
+
+*/
+
+public static void main(String args[]) {
+
+assert (true);
+
+// Commenting this for part 4.
+
+// assert (false); // 4. This assert is causing the program to fail Initially .
+
+// assert false will unconditionally throw an AssertionError.
+
+// So, If we have some part in the program that should never reach we should use
+
+// the
+
+// assert(false) to throw an Error. So
+
+warmUpAsserts();
+
+assertWithPrimitives();
+
+assertWithObjects();
+
+// homeworkRelatedAsserts();
+
+}
+
+/**
+
+* Just a few warm up Asserts here.Add two more new assert() statement after
+
+* TODO below
+
+*/
+
+private static void warmUpAsserts() {
+
+assert (5 > 1);
+
+int a = 30;
+
+assert (a != 0);
+
+assert (null == null);// could this be ever false?
+
+assert (true == true);// a bad day indeed if this could be false
+
+// TODO: craft two more asserts and place them here. If they r false,they will
+
+// crash the program
+
+assert (a == 30);// Checks if a is still same value
+
+int div = a / 5;
+
+assert (div == 6);// checks if the division is correct
+
+}
+
+/**
+
+* using assertion in conjunction with primitive types is familiar to you. just
+
+* as in a loop or if , you want to form a true/false (boolean) expression by
+
+* employing relational operation
+
+*/
+
+private static void assertWithPrimitives() {
+
+// assert below to ensure a fraction's denominator is never 0
+
+Scanner keys = new Scanner(System.in);
+
+System.out.println("Enter an integer numerator: ");
+
+int num = keys.nextInt();
+
+System.out.println("Enter an integer denominator, not 0: ");
+
+int denom = keys.nextInt();
+
+assert (denom != 0); // Answer; Reflection&Analysis. This way of assertion is good as it is already
+
+// checking the input.
+
+// assert that all ArrayLists start empty
+
+ArrayList<String> emptyList = new ArrayList<String>();
+
+assert (emptyList.size() == 0); // Answer; Reflection&Analysis. this way checking size is good as it is putting
+
+// a precondition for further calculations
+
+// TODO: Build two more asserts that use primitives and relational operators.
+
+// DONE.
+
+System.out.println("Enter an integer greater than 0: ");
+
+int num1 = keys.nextInt();
+
+assert (0 <= num1);// Assert checks for positive value
+
+int sum = 20 + 20;
+
+// Checks if the sum is correct.
+
+assert (sum == 40);
+
+keys.close();
+
+}
+
+/**
+
+* Assert works with both primitive and objects. Just as you use "==" with
+
+* primitives and ". equals()" with objects, so too will you use ". equals()" in
+
+* assert that deals with object equality.
+
+*/
+
+private static void assertWithObjects() {
+
+AssertDemo ad = new AssertDemo();
+
+ad.checkAddress(ad);
+
+// guess what .equals() does if you don't create one yourself ? (hint == )
+
+assert (ad.equals(ad));
+
+// TODO: make a few objects from any previous lab and test them with assert..
+
+// Make two Point objects at origin and asset they are equal.
+
+// 1. done the Points assert
+
+// 2. Can not do more as i have no list of your previous lab work . But it
+
+// should be
+
+// very easy. Just create two new objects of your class and assign same values
+
+// to both and call
+
+// objectName.equals(objectsName); Will always return True.
+
+Point p1 = new Point();
+
+p1.setLocation(0, 0);
+
+Point p2 = new Point();
+
+p2.setLocation(0, 0);
+
+assert (p1.equals(p2));// Should return true
+
+String s1 = new String("hello");
+
+s1.concat(" there");
+
+assertEquals("hello", s1); // As string class is immutable . Even if we added there to the string the value
+
+// of s1 will remain the same.
+
+// To add a new value we have to concatenate string ""there"" to s1 and store it
+
+// in a new variable. Only then the value will be updated.
+
+String s2 = s1.concat(" there");
+
+assertEquals("hello there", s2); // Now it will work.
+
+}
+
+/**
+
+* This function compares address at "this" to the address of the object handed
+
+* to this function.
+
+*
+
+* @param ad
+
+*/
+
+private void checkAddress(Object input) {
+
+System.out.println("Address of this :" + this); // this will map to an address same as ad object from main()
+
+System.out.println("Address of input :" + input); // input would map to same address as this.
+
+// how many aliases for the one "new:' object created in the main exists in this
+
+// scope?
+
+// 1?2?3? which are they? Answer : 1 alias is created which is input.
+
+assert (this == input);// "==" Does an address check for objects , which is freq not what we want
+
+// Ans: Yes . Its does "==" will print true only if the same object is checked
+
+// with itself.
+
+// When the object is passed to the method checkAddress() Java passes the
+
+// references by value just like any other parameter. This means
+
+// the references passed to the method are actually copies of the original
+
+// references. So it is the same object which is passed that is why assert
+
+// doesnt fail
+
+}
+
+/**
+
+* assert are a useful tool for transforming postconditions and class invariants
+
+* in to the code. Lets build a few asserts that works with your current Bill
+
+* and Money Assignment Change the value of paidDate and cents to trip ASserts
+
+* and observe the asserted error message
+
+*
+
+*/
+
+private static void homeworkRelatedAsserts() {
+
+Object paidDate = new Object();// really a date
+
+// Answer: Reflection&Analysis: Another good way to check
+
+// objects before use. Otherwise we can get NullPointerExceptions
+
+assert (paidDate != null);// perhaps one rule is that paidDate shouldn't be null after calling
+
+// setPaidDate()
+
+int cents = 0;
+
+// Answer: Reflection&Analysis: Good to check if the var are in certain range or not.
+
+assert (cents > 0 && cents <= 99); // another class invariant is written as an assert here.
+
+// TODO: craft two more assert that you could use with any assignment
+
+}
+
+}

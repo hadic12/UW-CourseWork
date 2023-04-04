@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Lab8a
+comment1.params=array
+comment1.target=double\ median(double[])
+comment1.text=\r\n\ Exercise\ 1\:\r\n\ Write\ a\ function\ called\ median,\ that\ takes\ as\ parameter\ a\ full,\ sorted\r\n\ array\ of\ doubles\ and\ returns\ the\ median\ of\ the\ list.\ For\ a\ sorted\ list\ of\r\n\ odd\ length,\ the\ median\ is\ the\ middle\ value.\ For\ a\ sorted\ list\ of\ even\r\n\ length,\ the\ median\ is\ the\ average\ of\ the\ two\ middle\ values.\ Make\ an\ example\r\n\ function\ call\ in\ your\ main.\r\n
+comment2.params=array
+comment2.target=boolean\ isSorted(double[])
+comment2.text=\r\n\ Exercise\ 2\:\r\n\ Write\ a\ function\ called\ isSorted\ that\ takes\ an\ array\ of\ doubles\ as\ a\ \r\n\ parameter\ and\ returns\ true\ if\ the\ list\ is\ in\ sorted\ (non-decreasing)\ \r\n\ order\ and\ returns\ false\ otherwise.\ \ Make\ an\ example\ function\ call\ in\ \r\n\ your\ main.\r\n\ @param\ array\r\n\ @return\r\n
+comment3.params=a1\ a2\ common
+comment3.target=void\ findCommon(int[],\ int[],\ int[])
+comment3.text=\r\n\ Exercise\ 3\:\r\n\ Write\ a\ function\ called\ findCommon\ that\ takes\ three\ arrays\ of\ positive\r\n\ integers\ as\ parameters.\ The\ first\ two\ array\ parameters\ are\ filled\ with\r\n\ ints.\ Fill\ the\ third\ array\ parameter\ with\ all\ the\ values\ that\ are\ uniquely\r\n\ in\ common\ from\ the\ first\ two\ arrays\ and\ the\ rest\ of\ the\ array\ with\ zeros.\r\n\ For\ example\:\r\n\ \r\n\ a1[]\ contains\:\ 3,\ 8,\ 5,\ 6,\ 5,\ 8,\ 9,\ 2\r\n\ \r\n\ a2[]\ contains\:\ 5,\ 15,\ 4,\ 6,\ 7,\ 3\ 9\ 11\ 9\ 3\ 12\ 13\ 14\ 9\ 5\ 3\ 13\r\n\ \r\n\ common[]\ should\ contain\:\ 3\ 5\ 6\ 9\ 0\ 0\ 0\ 0\r\n
+comment4.params=array\ element
+comment4.target=boolean\ inArray(int[],\ int)
+comment5.params=array
+comment5.target=void\ rotateRight(int[])
+comment5.text=\r\n\ Exercise\ 4\:\r\n\ Write\ a\ function\ called\ rotateRight\ that\ takes\ an\ array\ of\ integers\ as\ \r\n\ an\ argument\ and\ rotates\ values\ in\ the\ array\ one\ to\ the\ right\ (i.e.,\ one\ \r\n\ forward\ in\ position),\ shifting\ the\ value\ at\ the\ end\ of\ the\ array\ to\ the\ \r\n\ front.\ For\ example,\ if\ the\ array\ called\ list\ stores\ [3,\ 8,\ 19,\ 7]\ before\ \r\n\ the\ function\ is\ called,\ it\ should\ store\ [7,\ 3,\ 8,\ 19]\ after\ the\ function\ \r\n\ is\ called.\ Another\ call\ on\ rotateRight\ would\ leave\ the\ list\ as\ [19,\ 7,\ 3,\ 8].\ \r\n\ Another\ call\ would\ leave\ the\ list\ as\ [8,\ 19,\ 7,\ 3]\ .\r\n
+comment6.params=array\ target
+comment6.target=int\ count(int[],\ int)
+comment6.text=\r\n\ Exercise\ 5\:\r\n\ Write\ a\ function\ count\ that\ takes\ an\ array\ of\ integers\ and\ a\ target\ value\ as\ \r\n\ parameters\ and\ returns\ the\ number\ of\ occurrences\ of\ the\ target\ value\ in\ the\ \r\n\ array.\ For\ example,\ if\ an\ array\ called\ list\ stores\ the\ sequence\ of\ values\ \r\n\ [3,\ 5,\ 2,\ 1,\ 92,\ 38,\ 3,\ 14,\ 5,\ 73]\ then\ the\ following\ call\:\r\n\ int\ n\ \=\ count(list,\ 3);\r\n\ would\ return\ 2\ because\ there\ are\ 2\ occurrences\ of\ the\ value\ 3\ in\ the\ list.\r\n
+comment7.params=array
+comment7.target=int[]\ stretch(int[])
+comment7.text=\r\n\ Exercise\ 6\:\r\n\ Write\ a\ function\ called\ stretch\ that\ takes\ an\ array\ of\ integers\ as\ an\r\n\ argument,\ and\ returns\ a\ new\ array\ twice\ as\ large\ as\ the\ original\ that\r\n\ 'replaces'\ every\ integer\ from\ the\ original\ list\ with\ a\ pair\ of\ integers,\r\n\ each\ half\ the\ original,\ and\ then\ returns\ it.\ If\ a\ number\ in\ the\ original\r\n\ list\ is\ odd,\ then\ the\ first\ number\ in\ the\ new\ pair\ should\ be\ one\ higher\r\n\ than\ the\ second\ so\ that\ the\ sum\ equals\ the\ original\ number.\ For\ example,\r\n\ suppose\ a\ variable\ called\ list\ stores\ this\ sequence\ of\ values\r\n\ \r\n\ [18,\ 7,\ 4,\ 24,\ 11]\r\n\ \r\n\ The\ number\ 18\ is\ stretched\ into\ the\ pair\ (9,\ 9),\ the\ number\ 7\ is\ stretched\r\n\ into\ (4,\ 3),\ the\ number\ 4\ is\ stretched\ into\ (2,\ 2),\ the\ number\ 24\ is\r\n\ stretched\ into\ (12,\ 12)\ and\ the\ number\ 11\ is\ stretched\ into\ (6,\ 5).\r\n\ Thus,the\ call\:\r\n\ \r\n\ stretch(list);\r\n\ \r\n\ should\ replace\ list\ with\ the\ following\ list\ which\ is\ twice\ the\ length\ of\r\n\ the\ original\:\r\n\ \r\n\ [9,\ 9,\ 4,\ 3,\ 2,\ 2,\ 12,\ 12,\ 6,\ 5]\r\n
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+comment8.text=\r\n\ main\ method\ for\ testing\ the\ above\ methods\r\n
+numComments=9
