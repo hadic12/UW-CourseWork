@@ -45,9 +45,7 @@ import java.io.FileNotFoundException;
  * as it is Highest common factor while GCD is greatest common divisor.
  */
 
-public class FractionsV1.2
-{
-
+public class FractionsV1 {
     public static void main(String[] args) {
         Scanner input = null;// reading file for its content
         int length = fileSize("C://fractions.txt");// size of file
