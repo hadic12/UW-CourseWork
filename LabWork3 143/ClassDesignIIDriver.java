@@ -1,5 +1,3 @@
-package LabWork3;
-
 import java.awt.Color;
 import java.awt.Dimension;
 
@@ -148,8 +146,9 @@ public class ClassDesignIIDriver {
 
 	public static void passByReferenceDemo() {
 		/*
-		 * Answers to last part of the lab. 
-		 * a) Java primitive types are passed by value where as objects are passed by reference
+		 * Answers to last part of the lab.
+		 * a) Java primitive types are passed by value where as objects are passed by
+		 * reference
 		 * 
 		 * b) When a primitive type is passed to a method, it is passed by value so any
 		 * changes made to the variable in the called method are not seen in the calling

@@ -1,0 +1,61 @@
+import java.lang.Math;
+public class LineSegment{
+    Point2D startingPoint;
+    Point2D endingPoint;
+
+    public LineSegment(){
+        this.startingPoint.setX() = 0;
+        this.startingPoint.setY() = 0; 
+        this.endingPoint.setX() = 0;
+        this.endingPoint.setY() = 0;
+    }
+
+    public LineSegment(int startX, int startY, int endX, int endY){
+        this.startingPoint.setX() = startX;
+        this.startingPoint.setY() = startY; 
+        this.endingPoint.setX() = endX;
+        this.endingPoint.setY() = endY;
+    }
+
+    public LineSegment(LineSegment other){
+        this.startingPoint.setX() = other.getX();
+        this.startingPoint.setY() = other.getY(); 
+        this.endingPoint.setX() = other.getX();
+        this.endingPoint.setY() = other.getY();
+    }
+
+    public void setStartingPoint (Point2D sp){
+        this.startingPoint = sp;
+    }
+
+    public void setEndingPoint (Point2D ep){
+        this.endingPoint = ep;
+    }
+
+    public Point2D getStartingPoint(){
+        return this.startingPoint;
+    }
+
+    public Point2D getEndingPoint(){
+        return this.endingPoint;
+    }
+
+    public double distance(){
+        double a = Math.sqrt(Math.sqr(this.endingPoint.getX() - this.startingPoint.getX()) + Math.sqr(this.endingPoint.getY() - this.startingPoint.getY()));
+        return a;
+    }
+
+    public String toString(){
+        return "Line start (" + this.startingPoint.getX() + ", " + this.startingPoint.getY() + ")" + "and end (" + this.endingPoint.getX() + ", " + this.endingPoint.getY() + ")";
+    }
+
+    public boolean equals (LineSegment other){
+        if (this.startingPoint.getX() == other.startingPoint.getX() && this.startingPoint.getY() == other.startingPoint.getY()){
+            if (this.endingPoint.getX() == other.endingPoint.getX() && this.endingPoint.getY() == other.endingPoint.getY()){
+                return true;
+            }
+        }
+
+        return false;
+    }
+}
