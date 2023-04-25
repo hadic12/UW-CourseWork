@@ -1,5 +1,3 @@
-package LabWork3;
-
 import java.awt.Color;
 
 public class Shape {
@@ -10,7 +8,7 @@ public class Shape {
 
 	private Color color;
 
-//default constructor
+	// default constructor
 
 	public Shape() {
 
@@ -21,7 +19,6 @@ public class Shape {
 		this.color = null;
 
 	}
-
 
 	public Shape(int x, int y, Color color) {
 
@@ -35,7 +32,7 @@ public class Shape {
 
 	}
 
-//copy constructor
+	// copy constructor
 
 	public Shape(Shape other) {
 
@@ -47,7 +44,7 @@ public class Shape {
 
 	}
 
-//describe x,y and color
+	// describe x,y and color
 
 	public String toString() {
 
@@ -55,7 +52,7 @@ public class Shape {
 
 	}
 
-//this will be replaced by subclass
+	// this will be replaced by subclass
 
 	public double getArea()
 
@@ -65,9 +62,9 @@ public class Shape {
 
 	}
 
-//to be used by another program empty for now
+	// to be used by another program empty for now
 
-//as said in question
+	// as said in question
 
 	public void draw(Graphics g)
 

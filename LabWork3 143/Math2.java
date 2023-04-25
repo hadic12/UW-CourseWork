@@ -1,4 +1,3 @@
-package LabWork3;
 
 public class Math2 {
 

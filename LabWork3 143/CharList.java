@@ -1,4 +1,3 @@
-package LabWork3;
 
 //Import packages
 import java.util.*;
@@ -7,10 +6,10 @@ import java.io.CharArrayWriter;
 
 //Create a class named CharList
 public class CharList {
-//Initialize an array of 100 size
+	// Initialize an array of 100 size
 	char[] Array;
 
-//Default constructor
+	// Default constructor
 	CharList() {
 	}
 
@@ -18,28 +17,28 @@ public class CharList {
 		Array = startStr.toCharArray();
 	}
 
-//Copy constructor
+	// Copy constructor
 	CharList(CharList other) {
 		Array = new char[100];
 	}
 
-//Add new character in array
+	// Add new character in array
 	public void add(char next) {
 		Array[Array.length + 1] = next;
 	}
 
-//Get each character
+	// Get each character
 	public char get(int index) {
 		return Array[index];
 	}
 
-//Print the string
+	// Print the string
 	public String toString() {
 		String str = new String(Array);
 		return "" + str + " and has " + Array.length;
 	}
 
-//boolean to check the array values
+	// boolean to check the array values
 	public boolean equals(Object other) {
 
 		if (other == null) {

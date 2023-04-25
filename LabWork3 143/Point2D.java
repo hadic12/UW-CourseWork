@@ -1,4 +1,3 @@
-package LabWork3;
 
 public class Point2D {
 	private int x;
@@ -18,66 +17,66 @@ public class Point2D {
 		Point2D c = new Point2D();
 		System.out.println(b.toString());
 		System.out.println(c);
-//Question: why dont I need c.toString() here?
+		// Question: why dont I need c.toString() here?
 		System.out.println("Are b and c equal? :" + b.equals(c));
 	}
 
-//default constructor
+	// default constructor
 	public Point2D() {
-// TODO Auto-generated constructor stub
+		// TODO Auto-generated constructor stub
 	}
 
-//overload constructor
+	// overload constructor
 	public Point2D(int x, int y) {
 		this.x = x;
 		this.y = y;
 	}
 
-//copy constructor
+	// copy constructor
 	public Point2D(Point2D that) {
 		this.x = that.x;
 		this.y = that.y;
 	}
 
-//This method should set your private variable x equal to nX.
+	// This method should set your private variable x equal to nX.
 	public void setX(int nX) {
 		this.x = nX;
 	}
 
-//Similar to above but for y
+	// Similar to above but for y
 	public void setY(int nY) {
 		this.y = nY;
 	}
 
-//This function should return a copy of your private integer x;
+	// This function should return a copy of your private integer x;
 	public int getX() {
 		return this.x;
 	}
 
-//Similar to above, but for y.
+	// Similar to above, but for y.
 	public int getY() {
 		return this.y;
 	}
 
-//This function sets both x and y to zero.
+	// This function sets both x and y to zero.
 	public void resetToOrigin() {
 		x = 0;
 		y = 0;
 	}
 
-//This method adds dx to x, and dy to y
+	// This method adds dx to x, and dy to y
 	public void translate(int dx, int dy) {
 		x += dx;
 		y += dy;
 	}
 
 	@Override
-//returns a string representation of the point
+	// returns a string representation of the point
 	public String toString() {
 		return "(" + x + ", " + y + ")";
 	}
 
-//returns true if this is equal to that; don��t just use ��this == that�� }
+	// returns true if this is equal to that; don��t just use ��this == that�� }
 	public boolean equals(Point2D that) {
 		return this.x == that.x && this.y == that.y;
 	}
